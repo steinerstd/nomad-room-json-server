@@ -8,9 +8,9 @@
       "age": 21,
       "genre": "Masculino",
       "profession": "Develop",
-      "validation": true,
-      "profile_photo": "https://epipoca.com.br/wp-content/uploads/2020/11/Jack-Sparrow-Johnny-Depp-em-Piratas-do-Caribe.jpg",
-      "description": "Eu sou o capitão jsa",
+      "validation": false,
+      "profile_photo": null,
+      "description": null,
       "rooms_favorites": [],
       "id": 1
     },
