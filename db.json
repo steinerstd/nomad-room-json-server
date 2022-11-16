@@ -1,0 +1,751 @@
+{
+  "users": [
+    {
+      "email": "diogo@gmail.com",
+      "password": "$2a$10$Vrtxnjk9ADe.UewnOJCbReeJCS/2qncsGatIVEAPVYY9/bnpVrRoG",
+      "name": "Diogo",
+      "last_name": "Steiner",
+      "age": 21,
+      "genre": "Masculino",
+      "profession": "Develop",
+      "validation": false,
+      "profile_photo": null,
+      "description": null,
+      "rooms_favorites": [],
+      "id": 1
+    },
+    {
+      "email": "diogotrue@gmail.com",
+      "password": "$2a$10$2mwZAftRtG9tSa3A3zzX.O8mESR63X10jZP5MNzjhXZz50UGAW1E.",
+      "name": "Diogo",
+      "last_name": "Steiner",
+      "age": 21,
+      "genre": "Masculino",
+      "profession": "Develop",
+      "validation": true,
+      "profile_photo": "https://i.imgur.com/XnEcZ0p.jpg",
+      "description": "Olá, eu sou o Steiner xD",
+      "rooms_favorites": [
+        {
+          "userId": 2,
+          "title": "Espaço inteiro: loft (hospedado por Casa Linda Isla)",
+          "description": "Linda Vista Loft faz parte da Casa Linda Isla um pequeno condomínio com 4 apartamentos, localizado no meio da ilha, a uma curta distância de Marinas para ancorar barcos, restaurantes Oscar Grill, Hach, Mininos II e supermercado Chedraui. A 12 minutos de carro do centro da cidade e Playa Norte 10 minutos ao sul da ilha e do parque garrafon.",
+          "about": {
+            "gym": true,
+            "internet": true,
+            "tv": true,
+            "garage": true,
+            "animals": true,
+            "furnished": true
+          },
+          "localization": {
+            "zip_code": "60347-195",
+            "street": "Vila Natalina",
+            "district": "Vila Velha",
+            "city": "Fortaleza",
+            "state": "CE",
+            "number": 190
+          },
+          "room_photo": "https://i.imgur.com/aFcBFM6.jpg",
+          "contact": 21999999999,
+          "id": 3
+        },
+        {
+          "userId": 2,
+          "title": "Quarto Proa",
+          "description": "Propriedade exclusiva e isolada projetada pelo premiado arquiteto dentro da Mata Atlântica com uma vista incrível e única para a Baía de Paraty. A vista pode ser apreciada a partir da cama ou da encantadora varanda do lado de fora do quarto.",
+          "about": {
+            "gym": false,
+            "internet": false,
+            "tv": false,
+            "garage": false,
+            "animals": true,
+            "furnished": true
+          },
+          "localization": {
+            "zip_code": "15945-970",
+            "street": "Rua Benedito Sebastião de Faria",
+            "district": "Vila Caraguatá",
+            "city": "São Paulo",
+            "state": "SP",
+            "number": 1920
+          },
+          "room_photo": "https://i.imgur.com/csJRYEj.jpg",
+          "contact": 21999999999,
+          "id": 5
+        },
+        {
+          "userId": 2,
+          "title": "Loft estiloso e a vista mais linda do Rio!",
+          "description": "Decorado com muito carinho. Estamos alugando um loft estiloso com terraço espaçoso, entrada individual e a mais bela vista da cidade. O lugar perfeito para passar dias românticos na cidade maravilhosa.",
+          "about": {
+            "gym": true,
+            "internet": true,
+            "tv": true,
+            "garage": true,
+            "animals": false,
+            "furnished": true
+          },
+          "localization": {
+            "zip_code": "72444-114",
+            "street": "Colônia Agrícola Córrego do Crispim Chácara",
+            "district": "Setor Leste (Gama)",
+            "city": "Brasília",
+            "state": "DF",
+            "number": 2
+          },
+          "room_photo": "https://i.imgur.com/weADlMa.jpg",
+          "contact": 21999999999,
+          "id": 9
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "rooms": [
+    {
+      "userId": 2,
+      "title": "Quarto INDIVIDUAL a 3 minutos a pé da estação Carrão do METRÔ!!!",
+      "description": "Não cobramos mais nenhuma taxa extra. Não fornecemos internet, você pode solicitar uma ou dividir o sinal com os outros hóspedes!",
+      "about": {
+        "gym": false,
+        "internet": true,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "03071-100",
+        "street": "Rua Doutor Raul da Rocha Medeiros",
+        "district": "Tatuapé",
+        "city": "São Paulo",
+        "state": "SP",
+        "number": 88
+      },
+      "room_photo": "https://i.imgur.com/e7SgPd5.jpg",
+      "contact": 21999999999,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "title": "Quarto com suíte em frente a praia - Recreio dos Bandeirantes",
+      "description": "Linda suíte privativa, recém reformada, dedcorada e bem iluminada. Totalmente equipada: 1 king size,  frigobar, bebidas, closet, Ar-condicionado padrão. Com 30 m², cheio de comércios por perto. bla bla bla bla bla bla",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "22795-009",
+        "street": "Avenida Lúcio Costa",
+        "district": "Recreio dos Bandeirantes",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/TmrNGxu.jpg",
+      "contact": 21999999999,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "title": "Espaço inteiro: loft (hospedado por Casa Linda Isla)",
+      "description": "Linda Vista Loft faz parte da Casa Linda Isla um pequeno condomínio com 4 apartamentos, localizado no meio da ilha, a uma curta distância de Marinas para ancorar barcos, restaurantes Oscar Grill, Hach, Mininos II e supermercado Chedraui. A 12 minutos de carro do centro da cidade e Playa Norte 10 minutos ao sul da ilha e do parque garrafon.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "60347-195",
+        "street": "Vila Natalina",
+        "district": "Vila Velha",
+        "city": "Fortaleza",
+        "state": "CE",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/aFcBFM6.jpg",
+      "contact": 21999999999,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "title": "Apartamento Studio em Copacabana perto da praia",
+      "description": "Moderno e silencioso, apenas 3 minutos andando até a praia! Imóvel com aprox. 25m². Apartamento dividido em quarto, banheiro e cozinha. Possui 1 cama box de casal Tok &Stok, 1 TV LCD, ar condicionado, geladeira, cooktop e microondas. Internet sem fio. Localização com total infra-estrutura, super mercados, padaria 24 h, farmácias, bancos, restaurantes e transporte público. Localizado no 3° andar, prédio seguro com portaria 24h.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "20535-350",
+        "street": "Rua Olegário Ferreira",
+        "district": "Alto da Boa Vista",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "number": 1920
+      },
+      "room_photo": "https://i.imgur.com/Xy7K2ML.jpg",
+      "contact": 21999999999,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "title": "Quarto Proa",
+      "description": "Propriedade exclusiva e isolada projetada pelo premiado arquiteto dentro da Mata Atlântica com uma vista incrível e única para a Baía de Paraty. A vista pode ser apreciada a partir da cama ou da encantadora varanda do lado de fora do quarto.",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "15945-970",
+        "street": "Rua Benedito Sebastião de Faria",
+        "district": "Vila Caraguatá",
+        "city": "São Paulo",
+        "state": "SP",
+        "number": 1920
+      },
+      "room_photo": "https://i.imgur.com/csJRYEj.jpg",
+      "contact": 21999999999,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "Quarto com vista - Praia do Félix",
+      "description": "Propriedade exclusiva e isolada projetada pelo premiado arquiteto dentro da Mata Atlântica com uma vista incrível e única para a Baía de Paraty. A vista pode ser apreciada a partir da cama ou da encantadora varanda do lado de fora do quarto.",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": false,
+        "garage": false,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "03819-090",
+        "street": "Rua Mutuípe",
+        "district": "Parque Císper",
+        "city": "São Paulo",
+        "state": "SP",
+        "number": 1920
+      },
+      "room_photo": "https://i.imgur.com/KXGOLGD.jpg",
+      "contact": 21999999999,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "title": "Copacabana - Av Atlântica (Vista Mar - 11º andar)",
+      "description": "Vista total da praia de Copacabana e Pão de Açúcar! Apartamento no 11º andar localizado na Rua Bolivar esquina com Av Atlântica, entre os postos 4 e 5. Perto dos pontos turísticos e fácil acesso ao transporte público (2 minutos andando até o ponto de ônibus e 7 minutos até o metrô Cantagalo)",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": false,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "05767-320",
+        "street": "Rua Antônio Siqueira de Mendonça",
+        "district": "Jardim Catanduva",
+        "city": "São Paulo",
+        "state": "SP",
+        "number": 21920
+      },
+      "room_photo": "https://i.imgur.com/Dfs7VvH.jpg",
+      "contact": 21999999999,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "title": "Chalé em Paraty com vista incrível (07)",
+      "description": "Chalés de madeira, confortável situado no Sítio Bela Vista no bairro Coriscão em Paraty. Vista lindíssima da Baía de Paraty e Serra da Bocaina ideal para quem quer contato com a natureza. Próximo a lindas cachoeiras e a 8Km do centro histórico de Paraty. Existem sete chalés na propriedade, todos com banheiro e independestes. Acomoda até quatro pessoas. Ampla área externa com churrasqueira e cozinha com utensílios compartilhados entre os hospedes e piscina. WI-FI.",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "70877-540",
+        "street": "Quadra CLN 414 Bloco D",
+        "district": "Asa Norte",
+        "city": "Brasília",
+        "state": "DF",
+        "number": 2
+      },
+      "room_photo": "https://i.imgur.com/lGZCdbj.jpg",
+      "contact": 21999999999,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "title": "Loft estiloso e a vista mais linda do Rio!",
+      "description": "Decorado com muito carinho. Estamos alugando um loft estiloso com terraço espaçoso, entrada individual e a mais bela vista da cidade. O lugar perfeito para passar dias românticos na cidade maravilhosa.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": false,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "72444-114",
+        "street": "Colônia Agrícola Córrego do Crispim Chácara",
+        "district": "Setor Leste (Gama)",
+        "city": "Brasília",
+        "state": "DF",
+        "number": 2
+      },
+      "room_photo": "https://i.imgur.com/weADlMa.jpg",
+      "contact": 21999999999,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "title": "Linda ilha privativa com cinco amplas suítes",
+      "description": "Ilha do Japão (IDJ) é uma ilha privada e exclusiva localizada há 7km da costa de Angra dos Reis (Angra), municipio há 168km da cidade do Rio de Janeiro, Angra integra a região da Costa Verde, região cercada pela Mata Atlântica com mar calmo e cristalino.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "23914-285",
+        "street": "Rua Boa Esperança",
+        "district": "Village",
+        "city": "Angra dos Reis",
+        "state": "RJ",
+        "number": 0
+      },
+      "room_photo": "https://i.imgur.com/fa1gv78.jpg",
+      "contact": 21999999999,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "title": "Casa Aripeba - Ilha grande - Angra dos Reis",
+      "description": "Linda decoração rústica, cercada de mata nativa e de frente para um mar de águas calmas e cristalinas. Ótimo local para praticar snorkeling, kayaking e nado. Possui deck beira mar para contemplar o lindíssimo por do sol ou ver peixinhos e tartarugas. Alem disso , conta com um salao de jogos com ping pong e dardos . Voce vai encontrar um Lugar incrível e mágico, que transborda paz e energias boas. Perfeito para relaxar e se conectar com a natureza.",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "23906-030",
+        "street": "Rua Almirante Brasil",
+        "district": "Balneário",
+        "city": "Angra dos Reis",
+        "state": "RJ",
+        "number": 2
+      },
+      "room_photo": "https://i.imgur.com/IascAGQ.jpg",
+      "contact": 21999999999,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "title": "Casa Aripeba - Ilha grande - Angra dos Reis",
+      "description": "Durma facilmente na confortável cama mezanino com sua roupa de cama de alta contagem de fios. Recursos clássicos, como tijolos expostos, são compensados com aspectos divertidos, como o pano de fundo da cozinha de publicidade vintage, além de alguns luxos de boas-vindas, como uma Smart HDTV.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "41219-317",
+        "street": "Rua Antônio Vieira",
+        "district": "Mata Escura",
+        "city": "Salvador",
+        "state": "BA",
+        "number": 231
+      },
+      "room_photo": "https://i.imgur.com/tfSvwwM.jpg",
+      "contact": 21999999999,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "title": "140 m do mar. wi-fi, ar cond. em tudo!",
+      "description": "Durma facilmente na confortável cama mezanino com sua roupa de cama de alta contagem de fios. Recursos clássicos, como tijolos expostos, são compensados com aspectos divertidos, como o pano de fundo da cozinha de publicidade vintage, além de alguns luxos de boas-vindas, como uma Smart HDTV.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "88311-410",
+        "street": "Rua Tiradentes",
+        "district": "Cordeiros",
+        "city": "Itajaí",
+        "state": "SC",
+        "number": 2321
+      },
+      "room_photo": "https://i.imgur.com/Hyura9O.jpg",
+      "contact": 21999999999,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "title": "Loft Tropical",
+      "description": ". Super aconchegante , varanda, cozinha americana, sala , lavabo e mezanino com cama de casal e um banheiro. Os dois sofás da sala podem ser usados como cama . Espaço tranquilo para quem deseja fugir da cidade.",
+      "about": {
+        "gym": false,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "77001-110",
+        "street": "Quadra 107 Norte Alameda 123",
+        "district": "Plano Diretor Norte",
+        "city": "Palmas",
+        "state": "TO",
+        "number": 123
+      },
+      "room_photo": "https://i.imgur.com/w3nARUJ.jpg",
+      "contact": 21999999999,
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "title": "M20 - Studio Conforto",
+      "description": ". Excelente apartamento, todo reformado, no melhor ponto de Pedra de Guaratiba! Studio dividido em quarto, sala, cozinha americana e banheiro. Na quadra da praia, a 4 minutos da areia, em rua residencial tranquila..",
+      "about": {
+        "gym": false,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "45990-730",
+        "street": "Rua Aquiles Siquara",
+        "district": "Jardim Caraípe",
+        "city": "Teixeira de Freitas",
+        "state": "BA",
+        "number": 1823
+      },
+      "room_photo": "https://i.imgur.com/368UCsL.jpg",
+      "contact": 21999999999,
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "title": "Praia e campo, conforto, natureza, marina e golfe",
+      "description": "Arquitetura de Simon Velez, premiado arquiteto colombiano, campo, praia e mar, condomínio segurança 24 h, piscina exclusiva cachoeiras, lagos, riachos, shopping com 30 lojas, marina, 12 restaurantes, 2 sorveterias, mercados, padaria, farmácia, tudo no interior do condomínio. ",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "58062-332",
+        "street": "Rua Iracema Guilhermina de Macedo",
+        "district": "Paratibe",
+        "city": "João Pessoa",
+        "state": "PB",
+        "number": 1823
+      },
+      "room_photo": "https://i.imgur.com/KsaF99x.jpg",
+      "contact": 21999999999,
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "title": "Praia e campo, conforto, natureza, marina e golfe",
+      "description": "Bangalô privativo com total vista do mar, inclusive do boxe do banheiro, equipado com ar condicionado e frigobar, linda decoração rústica, cercado de mata nativa e de frente para um mar de águas calmas e cristalinas.Ótimo local para praticar snorkeling ou remar. Possui varanda de deck privativa com rede e a beira mar para contemplar o lindíssimo por do sol ou ver peixinhos e tartarugas.Lugar incrível e mágico, que transborda paz e energias boas.Perfeito para relaxar e se conectar com a natureza.",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "59144-114",
+        "street": "Rua Parque do Cantão",
+        "district": "Nova Esperança",
+        "city": "Parnamirim",
+        "state": "RN",
+        "number": 823
+      },
+      "room_photo": "https://i.imgur.com/b39ZLRo.jpg",
+      "contact": 21999999999,
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "title": "Quarto com vista",
+      "description": "Quarto com vista",
+      "about": {
+        "gym": false,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "district": "Sepetiba",
+        "state": "",
+        "street": "Rua Ramiro Magioli",
+        "number": 124
+      },
+      "room_photo": "https://i.imgur.com/5bLyHek.jpeg",
+      "contact": 213232131231,
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "title": "dsadasdsad sda dsad sadasda",
+      "description": "2132312321312 312",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": true,
+        "garage": true,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "district": "",
+        "state": "",
+        "street": "",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/5bLyHek.jpeg",
+      "contact": 213232131231,
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "title": "dsadasdsad sda dsad sadasda",
+      "description": "2132312321312 312",
+      "about": {
+        "gym": false,
+        "internet": false,
+        "tv": true,
+        "garage": true,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "district": "Sepetiba ",
+        "state": "RJ ",
+        "street": "Rua Ramiro Magioli ",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/5bLyHek.jpeg",
+      "contact": 213232131231,
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "title": "Cidade",
+      "description": "Ridsadas dsa sadad asd asdasdas",
+      "about": {
+        "gym": true,
+        "internet": false,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "district": "Sepetiba ",
+        "state": "RJ ",
+        "street": "Rua Ramiro Magioli ",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/5bLyHek.jpeg",
+      "contact": 213232131231,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "title": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "description": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli ",
+        "district": "Sepetiba ",
+        "city": "Rio de Janeiro ",
+        "state": "RJ ",
+        "number": 190
+      },
+      "room_photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302456804.jpg?k=441141b6da43da0e3067353642965017b29fbf4aab0940fad5b7456c44e9e6dd&o=&hp=1",
+      "contact": 21998189900,
+      "id": 22
+    },
+    {
+      "userId": 2,
+      "title": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "description": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": false,
+        "garage": false,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli ",
+        "district": "Sepetiba ",
+        "city": "Rio de Janeiro ",
+        "state": "RJ",
+        "number": 190
+      },
+      "room_photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302456804.jpg?k=441141b6da43da0e3067353642965017b29fbf4aab0940fad5b7456c44e9e6dd&o=&hp=1",
+      "contact": 21998189900,
+      "id": 23
+    },
+    {
+      "userId": 2,
+      "title": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "description": "aaaaaaaaaaaaaaaadsasdasdas asdda a     ",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": false,
+        "garage": true,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli ",
+        "district": "Sepetiba ",
+        "city": "Rio de Janeiro ",
+        "state": "RJ",
+        "number": 190
+      },
+      "room_photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302456804.jpg?k=441141b6da43da0e3067353642965017b29fbf4aab0940fad5b7456c44e9e6dd&o=&hp=1",
+      "contact": 21998189900,
+      "id": 24
+    },
+    {
+      "userId": 2,
+      "title": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "description": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": false,
+        "garage": true,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli ",
+        "district": "Sepetiba ",
+        "city": "Rio de Janeiro ",
+        "state": "RJ",
+        "number": 190
+      },
+      "room_photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302456804.jpg?k=441141b6da43da0e3067353642965017b29fbf4aab0940fad5b7456c44e9e6dd&o=&hp=1",
+      "contact": 21998189900,
+      "id": 25
+    },
+    {
+      "userId": 2,
+      "title": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "description": "aaaaaaaaaaaaaaaadsasdasdas asdda a",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": false,
+        "garage": true,
+        "animals": false,
+        "furnished": false
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli",
+        "district": "Sepetiba",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "number": 190
+      },
+      "room_photo": "https://i.imgur.com/5bLyHek.jpeg",
+      "contact": 21998189900,
+      "id": 26
+    },
+    {
+      "userId": 2,
+      "title": "const navigate = useNavigate()",
+      "description": "const navigate = useNavigate()",
+      "about": {
+        "gym": true,
+        "internet": true,
+        "tv": true,
+        "garage": true,
+        "animals": true,
+        "furnished": true
+      },
+      "localization": {
+        "zip_code": "23530025",
+        "street": "Rua Ramiro Magioli",
+        "district": "Sepetiba",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "number": 21
+      },
+      "room_photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302456804.jpg?k=441141b6da43da0e3067353642965017b29fbf4aab0940fad5b7456c44e9e6dd&o=&hp=1",
+      "contact": 21998189900,
+      "id": 27
+    }
+  ]
+}
